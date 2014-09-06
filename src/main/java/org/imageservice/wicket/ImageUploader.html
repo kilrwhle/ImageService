@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html xmlns:wicket="http://wicket.apache.org">
+    <body> 
+    <wicket:panel>
+        <label wicket:id="counter"></label>
+        <hr/>
+        <form wicket:id="uploadForm">
+            <div wicket:id="fileUpload"></div>
+            <a href="#" wicket:id="uploadButton" style="border: #6F6F6F solid thin; padding: 5px;">
+                UPLOAD
+            </a>
+            <!--<input type="submit" value="Submit"/>-->
+        </form>
+        <hr/>
+        <form wicket:id="viewForm">
+            <div wicket:id="viewContainer">
+                <div wicket:id="imagesView">
+                    <p><img wicket:id="image"/></p>
+                </div>
+            </div>
+        </form>
+        <hr/>
+    </wicket:panel>
+</body> 
+</html>
